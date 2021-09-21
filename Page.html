@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <script src="./functions.js"></script>
+    
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password_Generator</title>
+
+
+</head>
+
+<body>
+    
+    <h1>Password Generator</h1>
+    
+    <div class="site">
+        
+        <h4>Number of symbols:
+            <input class ="inputs"  type="number" name="symbols" id="symbols"><br>
+        </h4>
+        
+        
+        <h4>Number of letters:
+            <input class ="inputs" type="number" name="letters" id="letters"><br>
+        </h4>
+    
+        <h4>Number of numbers:
+            <input class ="inputs" type="number" name="numbers" id="numbers"><br>
+        </h4>
+    
+        
+    
+        <input class="button" type="button" value="Get Password" onclick="passgenerator()">
+    
+        <p>
+            <iframe class = "password" id="password"></iframe>
+        </p>
+        
+    </div>
+   
+
+</body>
+
+</html>

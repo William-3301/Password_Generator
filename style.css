@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+h1{
+    margin-left: 800px;
+    margin-top: 50px;
+}
+
+.site{
+    margin-left: 800px;
+    margin-top: 40px;
+}
+
+
+
+.inputs{
+    width: 80px;
+    margin: 2px;
+
+}
+
+.button{
+    width: 100px;
+    cursor: pointer;
+    border-radius: 3px;
+    margin: 2px;
+    margin-left: 90px;
+    height: 30px;
+}
+
+.password{
+    height: 80px;
+    width: 300px;
+    margin: 3px;
+    background-color: white;
+}
